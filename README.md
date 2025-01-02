@@ -1,1 +1,48 @@
-# hw2_boostrap
+# hw2_boostrap 66160021
+- git clone https://github.com/JulieZold/hw2_boostrap.git
+- git add README.md
+- git commit -m "Initial commit"
+- git checkout -b development
+- git add images
+- git add index.html
+- git add about.html
+- git add contact.html
+- git checkout -b feature/homepage
+- git add .
+- git commit -m "add basic structure"
+- git add index.html
+- git commit -m "add hero section"
+- git add index.html
+- git commit -m "add highlight"
+- git add index.html
+- git commit -m "edit grid size"
+- git add index.html
+- git commit -m "edit footer"
+- git add images
+- git commit -m "add more image"
+- git add index.html
+- git commit -m "edit quick links"
+- git add index.html
+- git commit -m "edit nav bar"
+- git add about.html
+- git commit -m "add nav bar in about"
+- git add .
+- git commit -m "edit context"
+- git add about.html
+- git commit -m "add card 1-4"
+- git add about.html
+- git commit -m "add card 5-8"
+- git add contact.html
+- git commit -m "edit form"
+- git add contact.html
+- git commit -m "edit quick links"
+- git add about.html
+- git commit -m "edit quick links"
+- git add index.html
+- git commit -m "edit copy text"
+- git add index.html
+- git commit -m "edit text"
+- git add screenshot.pdf
+- git commit -m "add screenshot"
+- git add README.md
+- git commit -m "add all commands"
