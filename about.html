@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เที่ยวพัทยา - สถานที่ท่องเที่ยว</title>
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: #A0E9FF;
+        }
+    </style>
+</head>
+
+<body class="d-flex flex-column min-vh-100">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #00A9FF;">
+        <div class="container">
+            <a class="navbar-brand text-white" href="index.html">
+                <img src="images/pattaya-23-11541.gif" alt="Logo" class="me-2" style="height: 80px;">
+                Pattaya City
+            </a>
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+            <div class="collapse navbar-collapse text-center" id="navbarNav">
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item my-2 my-lg-0 mx-2">
+                        <a class="btn btn-outline-light px-4 w-100" href="home.html">หน้าแรก</a>
+                    </li>
+                    <li class="nav-item my-2 my-lg-0 mx-2">
+                        <a class="btn btn-outline-light px-4 w-100" href="about.html">เกี่ยวกับเรา</a>
+                    </li>
+                    <li class="nav-item my-2 my-lg-0 mx-2">
+                        <a class="btn btn-outline-light px-4 w-100" href="contact.html">ติดต่อ</a>
+                    </li>
+                </ul>
+    
+                <form class="d-flex">
+                    <div class="input-group">
+                        <input class="form-control" type="search" placeholder="ค้นหา...">
+                        <button class="btn btn-outline-light" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <header class="py-5 text-center" style="background-color: #A0E9FF;">
+        <div class="container">
+            <h1 class="fw-bold">สถานที่ท่องเที่ยวในพัทยา</h1>
+            <p class="lead">รวมสถานที่ท่องเที่ยวยอดนิยมที่คุณต้องไม่พลาด</p>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- Card 1 -->
+            <div class="col">
+                <div class="card h-100 shadow border-info">
+                    <img src="https://chillpainai.com/storage/scoop/16424/1/1.jpeg" class="card-img-top"
+                        alt="สวนนงนุช พัทยา">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">สวนนงนุช พัทยา</h5>
+                        <p class="card-text">สวนพฤกษศาสตร์ระดับโลก มีดอกไม้หลากหลายและการแสดงวัฒนธรรมไทย</p>
+                        <a href="#" class="btn btn-info mt-auto text-white">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col">
+                <div class="card h-100 shadow border-info">
+                    <img src="https://www.ramayanawaterpark.com/wp-content/uploads/slide-trip-advisor-d-en.webp"
+                        class="card-img-top" alt="สวนน้ำรามายณะ">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">สวนน้ำรามายณะ</h5>
+                        <p class="card-text">สวนน้ำที่ใหญ่ที่สุดในไทย พร้อมสไลเดอร์หลากหลาย</p>
+                        <a href="#" class="btn btn-info mt-auto text-white">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col">
+                <div class="card h-100 shadow border-info">
+                    <img src="https://res.klook.com/image/upload/c_fill,w_1265,h_712/q_80/w_80,x_15,y_15,g_south_west,l_Klook_water_br_trans_yhcmh3/activities/qn5xemhmczizbhoed4ap.webp"
+                        class="card-img-top" alt="รถบัสเปิดประทุน">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">รถบัสเปิดประทุน</h5>
+                        <p class="card-text">ทัวร์ชมวิวเมืองพัทยาสุดพิเศษด้วยรถบัสเปิดประทุน</p>
+                        <a href="#" class="btn btn-info mt-auto text-white">ดูเพิ่มเติม</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="py-4 text-light" style="background: linear-gradient(to right, #007ACC, #005B99);">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>Contact Info</h5>
+                    <p class="mb-1">123 Pattaya City, Chonburi</p>
+                    <p class="mb-0">Email: contact@pattayaguide.com</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-light text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="#" class="text-light text-decoration-none">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 mb-3 text-md-end">
+                    <h5>Follow Us</h5>
+                    <a href="#" class="text-light text-decoration-none me-3"><i class="fab fa-facebook fa-lg"></i></a>
+                    <a href="#" class="text-light text-decoration-none me-3"><i class="fab fa-twitter fa-lg"></i></a>
+                    <a href="#" class="text-light text-decoration-none"><i class="fab fa-instagram fa-lg"></i></a>
+                </div>
+            </div>
+            <div class="text-center mt-3">
+                &copy; 2024 Pattaya Guide. สงวนลิขสิทธิ์.
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
